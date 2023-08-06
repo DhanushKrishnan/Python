@@ -25,12 +25,12 @@ def change_questions_format(input_file, output_file, font_family, font_size):
 
     doc.save(output_file)
 
-# Replace 'input.docx' with the path of your input Word document,
-# and 'output.docx' with the desired name of the modified output document.
+# Replace 'path' with the path of your input document
+
 input_file = 'path'
 output_file = 'path'
 font_family = 'Libre Baskerville'  # Customize the font family as desired
 font_size = 12        # Customize the font size as desired
-font_color = (65, 105, 225)
+font_color = (65, 105, 225)   #customize font color of Title
 
 change_questions_format(input_file, output_file, font_family, font_size)
