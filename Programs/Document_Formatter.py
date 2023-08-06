@@ -19,8 +19,8 @@ def change_questions_format(input_file, output_file, font_family, font_size):
 
 # Replace 'input.docx' with the path of your input Word document,
 # and 'output.docx' with the desired name of the modified output document.
-input_file = 'C:\Dhanush\Documents\Datavalley\Python\Imports\(40)Python Interview Questions & Answers.docx'
-output_file = 'C:\Dhanush\Documents\Datavalley\Python\Exports\(40)Python Interview Questions & Answers.docx'
+input_file = 'path'
+output_file = 'path'
 font_family = 'Libre Baskerville'  # Customize the font family as desired
 font_size = 12        # Customize the font size as desired
 
